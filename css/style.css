@@ -1,0 +1,254 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1e2a38;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #4fc3f7;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Content Section */
+.content {
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+}
+
+/* Media Section */
+.media {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Float Image */
+.float-image {
+    float: right;
+    width: 250px;
+    margin: 10px;
+    border: 3px solid #4fc3f7;
+    padding: 5px;
+}
+
+/* Highlight Box */
+.highlight-box {
+    background-color: #e3f2fd;
+    border-left: 6px solid #1e2a38;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* ID Selector */
+#main-heading {
+    color: #1e2a38;
+    text-align: center;
+}
+
+/* Clear float */
+.content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Technology Card */
+.tech-card {
+    position: relative; /* Relative positioning */
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #1e2a38;
+    text-align: center;
+}
+
+/* Badge with Absolute Positioning */
+.badge {
+    position: absolute; /* Absolute positioning */
+    top: -10px;
+    right: -10px;
+    background-color: #4fc3f7;
+    color: black;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Card Images */
+.tech-card img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Fixed Info Bar */
+.info-bar {
+    position: fixed; /* Fixed positioning */
+    top: 0;
+    width: 100%;
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    z-index: 1000;
+}
+
+/* Add margin to body so content not hidden behind fixed bar */
+body {
+    margin-top: 30px;
+}
+
+/* Backend Hero Section */
+.backend-hero {
+    background-image: url("../images/server-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Table Styling */
+.tools-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tools-table th,
+.tools-table td {
+    border: 1px solid #1e2a38;
+    padding: 10px;
+    text-align: center;
+}
+
+.tools-table th {
+    background-color: #4fc3f7;
+}
+
+.tools-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tools-table tr:hover {
+    background-color: #d0eafc;
+}
+
+/* Resource List */
+.resource-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.resource-list li {
+    margin: 10px 0;
+}
+
+.resource-list a {
+    text-decoration: none;
+    color: #1e2a38;
+    font-weight: bold;
+}
+
+.resource-list a:hover {
+    color: #4fc3f7;
+}
+
+/* Call To Action Box */
+.cta-box {
+    background-color: #e3f2fd;
+    padding: 20px;
+    margin: 30px 0;
+    text-align: center;
+    border: 2px solid #1e2a38;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #1e2a38;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4fc3f7;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #1e2a38;
+    color: white;
+}
