@@ -1,2 +1,2 @@
 # WebAuthoring
-Project for Web Authoring module
+Project for the Liberties College Web Authoring module
